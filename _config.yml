@@ -5,12 +5,8 @@ support:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Bobcat Roots is a vibrant online boutique specializing in exquisite plants and hand-painted pots,
-  available on Etsy and eBay. Our passion for nature and art creates a unique shopping experience,
-  offering lush, healthy plants and pots with intricate designs that add a personal touch to any space.
-  We believe in nurturing the connection between people and nature, providing beautiful greenery and
-  bespoke art pieces that reflect your style. Whether you're a seasoned plant enthusiast or new to indoor
-  gardening, Bobcat Roots is your go-to destination for botanical beauty.
+  Bobcat Roots is a vibrant online boutique on Etsy and eBay, offering exquisite plants and
+  hand-painted pots that blend nature and art to enhance any space with botanical beauty.
 
 # Build settings
 
