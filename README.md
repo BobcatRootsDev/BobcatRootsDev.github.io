@@ -274,10 +274,6 @@ author:
 To migrate existing metadata, update your config file and any reference to the object in your layouts and includes as summarized below:
 
 Minima 2.x    | Minima 3.0
-------------- | -------------------
-`site.author` | `site.author.name`
-`site.email`  | `site.author.email`
-
 
 ### Social networks
 
