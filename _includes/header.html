@@ -5,7 +5,7 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 
-    <a class="site-title" href="{{ '/' | relative_url }}">
+    <a id="site-header" class="site-title" href="{{ '/' | relative_url }}">
       <img class="only-on-dark" src="/assets/images/bobcat_roots_dark.svg" width="85" height="85"  alt="dark icon"/>
       <img class="only-on-light" src="/assets/images/bobcat_roots_logo.svg" width="85" height="80"  alt="light icon"/>
       {{ site.title | escape }}

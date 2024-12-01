@@ -1,6 +1,10 @@
 /**
  * Site header
  */
+#site-header {
+  text-decoration: none;
+}
+
 .site-header {
   border-bottom: 1px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
