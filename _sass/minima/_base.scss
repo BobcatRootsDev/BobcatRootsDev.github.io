@@ -241,8 +241,20 @@ pre {
  * Icons
  */
 
-.orange {
-  color: #f66a0a;
+//.orange {
+//  color: #f66a0a;
+//}
+
+.instagram-color {
+  background: #833ab4;
+  background: linear-gradient(
+      to right,
+      #833ab4,#fd1d1d,#fcb045
+  );
+}
+
+.facebook-blue {
+  color: #1877F2;
 }
 
 .grey {
