@@ -6,9 +6,17 @@
     <div class="footer-col-wrapper">
       <div class="footer-col">
 
+        {%- if site.support %}
+        <ul class="contact-list">
+          {% if site.support.email -%}
+          <li>Need help? Contact us at <a class="u-email" href="mailto:{{ site.support.email }}">{{ site.support.email }}</a></li>
+          {%- endif %}
+        </ul>
+        {%- endif %}
+
         <p class="feed-subscribe>">
           <a href="TODO">
-            <svg class="svg-icon">
+            <svg class="svg-icon red">
               <use xlink:href="{{ 'assets/minima-social-icons.svg#instagram' | relative_url }}"></use>
             </svg><span>Instagram</span>
           </a>
@@ -16,19 +24,20 @@
 
         <p class="feed-subscribe>">
           <a href="TODO">
-            <svg class="svg-icon">
+            <svg class="svg-icon blue">
               <use xlink:href="{{ 'assets/minima-social-icons.svg#facebook' | relative_url }}"></use>
             </svg><span>Facebook</span>
           </a>
         </p>
 
-      {%- if site.support %}
-        <ul class="contact-list">
-          {% if site.support.email -%}
-            <li>Need help? Contact us at <a class="u-email" href="mailto:{{ site.support.email }}">{{ site.support.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
+<!--        <p class="feed-subscribe">-->
+<!--          <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">-->
+<!--            <svg class="svg-icon orange">-->
+<!--              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>-->
+<!--            </svg><span>Subscribe</span>-->
+<!--          </a>-->
+<!--        </p>-->
+
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
