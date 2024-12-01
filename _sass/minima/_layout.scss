@@ -29,14 +29,14 @@
 }
 
 .site-nav {
-  position: relative;
-  top: 20px;
+  position: absolute;
   right: $spacing-unit * .5;
   background-color: $background-color;
   border: 1px solid $border-color-01;
   border-radius: 5px;
   text-align: right;
   align-content: center;
+  height: 85px;
 
   .nav-trigger {
     display: none;
